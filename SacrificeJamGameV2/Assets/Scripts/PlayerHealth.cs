@@ -8,8 +8,9 @@ public class PlayerHealth : MonoBehaviour
     private int startHealth = 50;
 
     private int playerHealth;
-
-
+    public Vector2 location;
+    public List<Vector2> drops;
+    public GameObject oilSplotOBJ;
     // Start is called before the first frame update
     void Start()
     {
