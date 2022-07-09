@@ -3,7 +3,11 @@ m_ProjectFiles:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FilePath: C:/Users/Ryan/SacrificeJam/SacrificeJam/SacrificeJamGameV2/Packages/manifest.json
+=======
+    m_FilePath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages/manifest.json
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
     m_FilePath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages/manifest.json
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -23,7 +27,11 @@ m_ProjectFiles:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FilePath: C:/Users/Ryan/SacrificeJam/SacrificeJam/SacrificeJamGameV2/Packages/packages-lock.json
+=======
+    m_FilePath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages/packages-lock.json
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
     m_FilePath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages/packages-lock.json
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -52,7 +60,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -190,7 +202,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.cinemachine@2.6.15
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.cinemachine@2.6.15
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.cinemachine@2.6.15
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -367,7 +383,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.collab-proxy@1.3.9
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.collab-proxy@1.3.9
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.collab-proxy@1.3.9
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -514,7 +534,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.rider@2.0.7
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.rider@2.0.7
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -641,7 +665,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -746,7 +774,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.ide.vscode@1.2.3
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.vscode@1.2.3
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ide.vscode@1.2.3
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -831,7 +863,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.inputsystem@1.0.2
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.inputsystem@1.0.2
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.inputsystem@1.0.2
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -959,7 +995,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.render-pipelines.universal@10.4.0
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.render-pipelines.universal@10.4.0
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -1089,7 +1129,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.test-framework@1.1.24
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.test-framework@1.1.24
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.test-framework@1.1.24
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -1203,7 +1247,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.textmeshpro@3.0.4
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.textmeshpro@3.0.4
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.textmeshpro@3.0.4
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -1385,7 +1433,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.timeline@1.4.7
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.timeline@1.4.7
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.timeline@1.4.7
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3369,7 +3421,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ext.nunit@1.0.6
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.ext.nunit@1.0.6
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3444,7 +3500,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.mathematics@1.1.0
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.mathematics@1.1.0
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.mathematics@1.1.0
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3507,7 +3567,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.render-pipelines.core@10.4.0
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.render-pipelines.core@10.4.0
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.render-pipelines.core@10.4.0
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3675,7 +3739,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.shadergraph@10.4.0
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.shadergraph@10.4.0
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.shadergraph@10.4.0
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3846,7 +3914,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: C:\Users\Ryan\SacrificeJam\SacrificeJam\SacrificeJamGameV2\Library\PackageCache\com.unity.searcher@4.3.1
+=======
+      resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.searcher@4.3.1
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
       resolvedPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Library/PackageCache/com.unity.searcher@4.3.1
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
@@ -3905,7 +3977,11 @@ m_PackageAssets:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_ProjectPath: C:/Users/Ryan/SacrificeJam/SacrificeJam/SacrificeJamGameV2/Packages
+=======
+m_ProjectPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages
+>>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
 =======
 m_ProjectPath: /Users/nateshirey/Documents/GameProjects/SacrificeJam/SacrificeJamGameV2/Packages
 >>>>>>> bf0a8017b7873d597c756ca9afe2e564653c78c4
