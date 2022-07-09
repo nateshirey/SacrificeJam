@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     private int startHealth = 50;
     private Rigidbody2D rb
     private int playerHealth;
+    public int distance = 3;
     public List<Vector2> drops;
     public GameObject oilSplotOBJ;
     // Start is called before the first frame update
