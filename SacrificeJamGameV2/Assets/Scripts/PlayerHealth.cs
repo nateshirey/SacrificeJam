@@ -57,14 +57,11 @@ public class PlayerHealth : MonoBehaviour
             activeSplots.Add(i);
         }
         explodingSplots.Add(oilSplots.Count-1);
-        Color c =new Color(1,.2f,0,1);
         while(explodingSplots.Count>0){
             List<int> tempList = new List<int>(explodingSplots);
             explodingSplots = new List<int>();
             for(int i =0; i<tempList.Count; i++){        
-
-                SpriteRenderer sprite = oilSplots[tempList[i]].GetComponentInChildren<SpriteRenderer>();
-                sprite.color = c;
+                oilSplots[tempList[i]].GetComponentInChildren<OilSplotScript>().Explode();
                 for(int j = 0; j<activeSplots.Count; j++){
                     if((drops[tempList[i]]-drops[activeSplots[j]]).magnitude<explodeRadius){
                         explodingSplots.Add(activeSplots[j]);
