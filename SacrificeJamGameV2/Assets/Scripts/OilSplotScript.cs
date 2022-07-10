@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OilSplotScript : MonoBehaviour
 {
-    private bool blownup = false;
+    public bool blownup = false;
     // Start is called before the first frame update
     void Start()
     {
