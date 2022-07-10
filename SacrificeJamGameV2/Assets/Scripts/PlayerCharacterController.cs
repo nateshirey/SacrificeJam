@@ -21,7 +21,7 @@ public class PlayerCharacterController : MonoBehaviour
 
     public Vector2 inputMoveValue;
     public float speed;
-
+    
     public void OnMove(InputValue value)
     {
         inputMoveValue = value.Get<Vector2>();
@@ -36,10 +36,13 @@ public class PlayerCharacterController : MonoBehaviour
     void Update()
     {
         speed = rb.velocity.magnitude;
-        if (rb.velocity.magnitude <= maxSpeed)
-        {
-            rb.AddForce(inputMoveValue * acceleration * 100f * Time.fixedDeltaTime);
+        Vector2 direction = rb.velocity;
+        rb.AddForce(inputMoveValue * acceleration * 100f * Time.fixedDeltaTime);
+        if(speed>maxSpeed){
+            rb.velocity = maxSpeed*inputMoveValue;
         }
+        
+        
         if (inputMoveValue.sqrMagnitude < 0.001f)
         {
             rb.velocity *= deceleration;
