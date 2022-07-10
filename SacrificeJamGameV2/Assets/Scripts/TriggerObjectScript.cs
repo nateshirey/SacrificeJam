@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerObjectScript : MonoBehaviour
 {
-    private bool blownup = false;
+    public bool blownup = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class TriggerObjectScript : MonoBehaviour
     {
         
     }
-    public void Explode()
+    public virtual void Explode()
     {
         if(!blownup){
             blownup = true;
