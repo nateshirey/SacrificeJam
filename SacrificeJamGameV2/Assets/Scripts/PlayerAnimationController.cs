@@ -9,7 +9,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     private PlayerCharacterController characterController;
     private Vector2 movementInput;
-    public float tan;
+    private float tan;
     private bool idle = false;
 
     private void Awake()
@@ -41,5 +41,10 @@ public class PlayerAnimationController : MonoBehaviour
 
         anim.SetFloat("Blend", tan);
         anim.SetBool("Idle", idle);
+    }
+
+    public void Death()
+    {
+        anim.SetTrigger("Death");
     }
 }
