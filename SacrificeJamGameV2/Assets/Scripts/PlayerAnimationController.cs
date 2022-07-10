@@ -6,6 +6,8 @@ public class PlayerAnimationController : MonoBehaviour
 {
     [SerializeField]
     private Animator anim;
+    [SerializeField]
+    private ParticleSystem deathParticle;
 
     private PlayerCharacterController characterController;
     private Vector2 movementInput;
