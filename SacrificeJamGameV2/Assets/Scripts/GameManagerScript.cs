@@ -2,49 +2,50 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class GameManagerScript : MonoBehaviour
 {
-    [SerializeField]
-    private int startHealth = 50;
-    
-    //This is a flag to keep from repeating the blow up
-    private int blownup = 0;
-    private Rigidbody2D rb;
-    private int playerHealth;
+    public bool playerBlownup = false;
+    public GameObject player;
+    public PlayerData playerData;
+    public Rigidbody2D playerRB;
     public float distance = 3;
     public float explodeDelay = 0.1f;
     public float explodeRadius = 0.4f;
+    public List<GameObject> interactables;
     public List<Vector2> drops;
     public GameObject oilSplotOBJ;
     public List<GameObject> oilSplots;
     // Start is called before the first frame update
-    void Awake(){
-        rb = this.GetComponent<Rigidbody2D>();
-    }
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
-        playerHealth = startHealth;
-        drops.Add(rb.position);
+        player = GameObject.FindWithTag("Player");
+        playerRB = player.GetComponent<Rigidbody2D>();
+        playerData = player.GetComponent<PlayerData>();
+        interactables = new List<GameObject>(GameObject.FindGameObjectsWithTag("Interactable"));
+        drops.Add(playerRB.position);
     }
-
+    void Awake(){
+        player = GameObject.FindWithTag("Player");
+        playerRB = player.GetComponent<Rigidbody2D>();
+        interactables = new List<GameObject>(GameObject.FindGameObjectsWithTag("Interactable"));
+    }
     // Update is called once per frame
     void Update()
     {
-        if((rb.position-drops[drops.Count-1]).magnitude>distance & playerHealth>0){
+        if((playerRB.position-drops[drops.Count-1]).magnitude>distance & playerData.Health>0){
+            playerData.Health -=1;
             oilSplots.Add(Instantiate(oilSplotOBJ, drops[drops.Count-1], Quaternion.identity));
-            playerHealth -=1;
-            if(playerHealth<=0 & blownup ==0){
-                blownup = 1;
+            if(playerData.Health<=0 & !playerBlownup){
+                playerBlownup = true;
                 StartCoroutine(Explode());
 
             }
             else{
-                drops.Add(rb.position);
+                drops.Add(playerRB.position);
             }
         }
-        else if(playerHealth<=0& blownup ==0){
-            blownup = 1;
+        else if(playerData.Health<=0 & !playerBlownup){
+            playerBlownup = true;
             StartCoroutine(Explode());
 
         }
@@ -66,6 +67,12 @@ public class PlayerHealth : MonoBehaviour
                     if((drops[tempList[i]]-drops[activeSplots[j]]).magnitude<explodeRadius){
                         explodingSplots.Add(activeSplots[j]);
                         activeSplots.Remove(activeSplots[j]);
+                    }
+                }
+                for(int j = 0; j<interactables.Count; j++){
+                    Vector2 InteractableVector = new Vector2(interactables[j].transform.position.x,interactables[j].transform.position.y);
+                    if(((drops[tempList[i]]-InteractableVector).magnitude<explodeRadius)){
+                        interactables[j].GetComponentInChildren<TriggerObjectScript>().Explode();
                     }
                 }
             }
